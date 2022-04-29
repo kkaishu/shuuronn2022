@@ -3,7 +3,6 @@ import math
 import numpy as np
 
 file_src="car.jpg"
-
 img_src=cv2.imread(file_src,1)
 
 shift=100
