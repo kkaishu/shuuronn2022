@@ -7,6 +7,7 @@ file_src="car.jpg"
 # file_dst="dst.png"
 
 img_src=cv2.imread(file_src,0)#グレースケールの場合は0
+cv2.imwrite('car_sirokuro.png', img_src)
 # ヒストグラム均一化
 img_src = cv2.equalizeHist(img_src)
 
